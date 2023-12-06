@@ -1,7 +1,7 @@
 @font-face {
   src:
-    url(../fonts/JetBrainsMonoExtraBold.woff2),
-    url(../fonts/JetBrainsMonoExtraBold.woff);
+    url('../fonts/JetBrainsMonoExtraBold.woff2'),
+    url('../fonts/JetBrainsMonoExtraBold.woff');
   font-family: 'JetBrains Mono';
   font-weight: normal;
 }
@@ -9,9 +9,13 @@
 html {
   display: -webkit-box;
   display: -ms-flexbox;
+  display: -webkit-flex;
+  display: -moz-box;
   display: flex;
   -webkit-box-pack: center;
+  -moz-box-pack: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   height: 100vh;
   font-family: 'JetBrains Mono', sans-serif;
@@ -21,9 +25,13 @@ html {
 body {
   display: -webkit-box;
   display: -ms-flexbox;
+  display: -webkit-flex;
+  display: -moz-box;
   display: flex;
   -webkit-box-align: center;
+  -moz-box-align: center;
   -ms-flex-align: center;
+  -webkit-align-items: center;
   align-items: center;
   margin: 0;
 }
